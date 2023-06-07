@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forever Moments: Computer Crazy | Home</title>
+    <style>
+	  body {
+	    margin: 0
+	  }
+      .banner {
+        background-color: blue;
+        height: 85px;
+		width: 200%;
+        display:flex;
+		align-items:stretch;
+		transform: scale(50%) translate(-50%, -50%)
+      }
+      
+      .titlebarbuttons {
+        text-align: right;
+        position: absolute;
+        top: 0px;
+        right:0px;
+        font-family:sans-serif
+      }
+	  .titlebarbuttons a {
+	    text-decoration: none;
+		float: right;
+		padding: 10px;
+		font-size: 20px;
+		background-color: blue;
+		color: white
+	  }
+	  .titlebarbuttons a:hover {
+	    background-color: #0040ff
+	  }
+	  .body {
+	  transform: translate(0px, -15%);
+      font-family:sans-serif;
+	  font-size:15px
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="titlebar">
+    
+    <div class="banner"><a href="https://forevermoments.github.io/archive/2023/1/home/"><img src="https://forevermoments.github.io/archive/2023/1/images/banner.png" alt="Forever Moments: Computer Crazy"></a></div>
+      
+        <div class="titlebarbuttons">
+		  <a>Software Projects (Disabled)</a>
+		  <a href="https://forevermoments.github.io/archive/2023/1/videos">Videos</a>
+          <a href="https://forevermoments.github.io/2023/1/home/">Home</a>
+      </div>
+    </div>
+
+      <div class="body">
+      	<h1>Welcome to my Website!</h1>
+        <p>I make Youtube content, on things relating to the history of the software we use every day, mostly Microsoft products.</p>
+		<h2>Brief History, and Youtube</h2>
+		<p>My whole life, I was always curious about computers. Trying to figure out different things since I began using computers. In 2016, I got curious about the history of computers, including playing with some old Windows versions on Copy.sh's online emulator/hypervisor. By the End of 2017, my interest had tapered off (didn't die, I created my first VM in 2018, running Ubuntu 18.04), until early 2020, when the COVID pandemic hit, I decided to revisit the old hobby and began creating my VMs with Windows installed, and loved experimenting around with it. In June 2020, I created the Youtube Channel "Forever Moments: Computer Crazy", the first part of the name comes from two words that I thought looked nice with each other, and that is the reason. The second part came from the fact that I love computers.</p>
+      </div>
+	  <script src = "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script>
+	  $(".body").hide();
+      $(".body").fadeIn(1000);
+	</script>
+  </body>
+
+</html>
